@@ -1,0 +1,12 @@
+[programs.devnet]
+auction = "5JNnRQLNjzW21tJTPT6PaLnqiYN3d9jvtcCvHCfkoXuU"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/ubuntu/fury/deploy-keypair.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
