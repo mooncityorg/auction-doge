@@ -8,8 +8,8 @@ export interface OpenAuction {
     tokenAmount: anchor.BN,
 
     startTime: anchor.BN,
-    endTime: anchor.BN,
     cancelled: Boolean,
+    endTime: anchor.BN,
 
     title: String,
 
